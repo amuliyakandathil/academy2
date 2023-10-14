@@ -1,0 +1,10 @@
+import tkinter
+window = tkinter.Tk()
+window.title("Hello World")
+window.minsize(500,400)
+window.configure(bg='white')
+label1=tkinter.Label(text="Helllo World!!!!!!!!! " , font =("Times new roman",20,"bold"),fg='teal',bg ='white')
+label1.place(x=130,y=167)
+label1=tkinter.Label(text="How are you........." , font =("Times new roman",18,"bold"),fg='turquoise',bg ='white')
+label1.place(x=130,y=200)
+window.mainloop()

@@ -1,0 +1,15 @@
+import tkinter
+window = tkinter.Tk()
+window.title("SQUARE")
+window.minsize(500,400)
+inputtxt = tkinter.Entry()
+inputtxt.pack()
+def cal():
+    text1=inputtxt.get()
+    print(int(text1))
+    sq = int(text1)*int(text1)
+    print ("The Square is : ",sq)
+    label2=tkinter.Label(text="The Square is : "+ str(sq))
+    label2.pack()
+btn =tkinter. Button(text = "Click me !",command=cal)
+btn.pack(side="bottom")
