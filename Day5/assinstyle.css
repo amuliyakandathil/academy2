@@ -1,0 +1,49 @@
+body{
+    background-color:rgb(185, 234, 185)
+}
+.div_1 {
+    
+        background-image: url('d1.jpg'); 
+        background-size: cover; 
+        
+        width: 200px; 
+        height: 200px; 
+        display: inline-block; 
+        margin-right: 10px; 
+        margin-left: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        border-color: cornsilk;
+      
+
+}
+.div_2
+{
+        background-image: url('d2.jpg'); 
+        background-size: cover; 
+        
+        width: 200px; 
+        height: 200px; 
+        display: inline-block; 
+        margin-right: 10px;
+        margin-left: 10px; 
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        border-color: cornsilk;
+}
+.div_3
+{
+    background-image: url('d3.jpg'); 
+        background-size: cover; 
+        width: 200px; 
+        height: 200px; 
+        display: inline-block; 
+        margin-right: 10px;
+        margin-left: 10px; 
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        border-color: cornsilk;
+}

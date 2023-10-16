@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(240, 182, 161);
+}
+table{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 1cm;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid white;
+    border-width: 3px;
+    border-radius: 15px;
+    
+
+}
+td,th{
+    padding: 20px;
+    background-color: rgb(236, 209, 199);
+    border: 1px solid white;
+    border-width: 3px;
+    border-radius: 15px;
+}
+.ima{
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    border-color: wheat;
+    border-width: 3cm;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+h2{
+    padding-top: 1cm;
+    padding-bottom: 0.5cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-size: medium;
+}
+h3{
+    padding: 0.5cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-size: x-small;
+}
